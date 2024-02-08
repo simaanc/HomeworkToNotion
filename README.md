@@ -33,6 +33,8 @@ pip install aiohttp canvasapi python-dateutil requests
 - `COURSES_DATABASE_ID`: ID of the Notion database for courses.
 - `ARCHIVE_LIMIT`: Number of days after due date to archive assignments.
 
+![alt text](/images/image.png)
+
 3. Deploy the script to AWS Lambda:
 - Ensure the lambda function is configured with the appropriate memory and timeout settings.
 - Set up a trigger (e.g., CloudWatch Events) for periodic execution.
