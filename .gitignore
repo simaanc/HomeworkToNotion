@@ -15,10 +15,12 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/*
+!lib/python3.11/site-packages/gradescope
 lib64/
 parts/
 sdist/
+bin/
 var/
 wheels/
 share/python-wheels/
